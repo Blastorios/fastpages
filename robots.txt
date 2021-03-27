@@ -1,1 +1,1 @@
-Sitemap: https://blastorios.github.io/fastpages/sitemap.xml
+Sitemap: https://blog.blastorios.io/sitemap.xml
