@@ -4,11 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
-# Hi!
+## Hi!
 
-![]({{site.baseurl}}/images/Picture.jpg "Me!")
+[]({{site.baseurl}}/images/Picture.jpg "Me!")
 
-My name is [Jordi](https://www.linkedin.com/in/jordi-zwiggelaar-6678b416b/), an MSc student at the VU/UvA (one of the funky joint-degrees that allow me to flex :smile:).
+My name is [Jordi](https://www.linkedin.com/in/jordi-zwiggelaar-6678b416b/), an MSc student at the VU/UvA (one of the funky joint-degrees :smile:).
 
 I live in the Netherlands and love everything related to computer-related topics. Being solely limited to my creativity to create: programming allows me to try and push my boundaries.
 
