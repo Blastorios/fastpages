@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Hi!
 
-[]({{site.baseurl}}/images/Picture.jpg "Me!")
+![](https://blog.blastorios.io/images/Picture.jpg "Me!")
 
 My name is [Jordi](https://www.linkedin.com/in/jordi-zwiggelaar-6678b416b/), an MSc student at the VU/UvA (one of the funky joint-degrees :smile:).
 
