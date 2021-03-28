@@ -4,17 +4,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Tags | Blastorios</title>
+<title>Installing K3s, Traefik v2.3 and Cloudflare | Blastorios</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="Installing K3s, Traefik v2.3 and Cloudflare" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Biology, Data Science, Machine Learning and More" />
-<meta property="og:description" content="Biology, Data Science, Machine Learning and More" />
-<link rel="canonical" href="https://blog.blastorios.io/categories/" />
-<meta property="og:url" content="https://blog.blastorios.io/categories/" />
+<meta name="description" content="So You Can Publish/Develop Uninterruptedly" />
+<meta property="og:description" content="So You Can Publish/Develop Uninterruptedly" />
+<link rel="canonical" href="https://blog.blastorios.io/devops/k3s/traefik/linux/2021/03/28/Installing-K3s,-Traefik-And-Cloudflare.html" />
+<meta property="og:url" content="https://blog.blastorios.io/devops/k3s/traefik/linux/2021/03/28/Installing-K3s,-Traefik-And-Cloudflare.html" />
 <meta property="og:site_name" content="Blastorios" />
+<meta property="og:image" content="https://blog.blastorios.io/images/devops_k3s_post.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-03-28T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://blog.blastorios.io/categories/","@type":"WebPage","headline":"Tags","description":"Biology, Data Science, Machine Learning and More","@context":"https://schema.org"}</script>
+{"url":"https://blog.blastorios.io/devops/k3s/traefik/linux/2021/03/28/Installing-K3s,-Traefik-And-Cloudflare.html","@type":"BlogPosting","headline":"Installing K3s, Traefik v2.3 and Cloudflare","dateModified":"2021-03-28T00:00:00-05:00","datePublished":"2021-03-28T00:00:00-05:00","image":"https://blog.blastorios.io/images/devops_k3s_post.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://blog.blastorios.io/devops/k3s/traefik/linux/2021/03/28/Installing-K3s,-Traefik-And-Cloudflare.html"},"description":"So You Can Publish/Develop Uninterruptedly","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://blog.blastorios.io/feed.xml" title="Blastorios" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicons/favicon.ico">
 <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-touch-icon.png">
@@ -89,90 +92,93 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Installing K3s, Traefik v2.3 and Cloudflare</h1><p class="page-description">So You Can Publish/Develop Uninterruptedly</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-03-28T00:00:00-05:00" itemprop="datePublished">
+        Mar 28, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
 
-<h2>Contents</h2>
-
-  
-  
-  
-
-  <ul>
-  
-    <li><a href="#devops">devops</a></li>
-  
-    <li><a href="#fastpages">fastpages</a></li>
-  
-    <li><a href="#jupyter">jupyter</a></li>
-  
-    <li><a href="#k3s">k3s</a></li>
-  
-    <li><a href="#linux">linux</a></li>
-  
-    <li><a href="#markdown">markdown</a></li>
-  
-    <li><a href="#traefik">traefik</a></li>
-  
-  </ul>
-
-  
-      <h3 id ="devops"><i class="fas fa-tags category-tags-icon"></i></i> devops</h3>
-      <a name="devops"></a>
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
       
+        <a class="category-tags-link" href="//categories/#devops">devops</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="//categories/#k3s">k3s</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="//categories/#traefik">traefik</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="//categories/#linux">linux</a>
         
       
-  
-      <h3 id ="fastpages"><i class="fas fa-tags category-tags-icon"></i></i> fastpages</h3>
-      <a name="fastpages"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="//jupyter/fastpages/markdown/2021/03/20/Utilizing-Notebooks-In-Fastpages.html">Utilizing Notebooks in Fastpages</a>  • Mar 20, 2021</p>
-        </article>
-        
-      
-  
-      <h3 id ="jupyter"><i class="fas fa-tags category-tags-icon"></i></i> jupyter</h3>
-      <a name="jupyter"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="//jupyter/fastpages/markdown/2021/03/20/Utilizing-Notebooks-In-Fastpages.html">Utilizing Notebooks in Fastpages</a>  • Mar 20, 2021</p>
-        </article>
-        
-      
-  
-      <h3 id ="k3s"><i class="fas fa-tags category-tags-icon"></i></i> k3s</h3>
-      <a name="k3s"></a>
-      
-        
-      
-  
-      <h3 id ="linux"><i class="fas fa-tags category-tags-icon"></i></i> linux</h3>
-      <a name="linux"></a>
-      
-        
-      
-  
-      <h3 id ="markdown"><i class="fas fa-tags category-tags-icon"></i></i> markdown</h3>
-      <a name="markdown"></a>
-      
-        <article class="archive-item">
-          <p class="post-meta post-meta-title"><a class="page-meta" href="//jupyter/fastpages/markdown/2021/03/20/Utilizing-Notebooks-In-Fastpages.html">Utilizing Notebooks in Fastpages</a>  • Mar 20, 2021</p>
-        </article>
-        
-      
-  
-      <h3 id ="traefik"><i class="fas fa-tags category-tags-icon"></i></i> traefik</h3>
-      <a name="traefik"></a>
-      
-        
-      
-  
+      </p>
+    
 
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
 
+    <a href="https://github.com/Blastorios/fastpages/tree/master/_notebooks/2021-03-28-Installing-K3s,-Traefik-And-Cloudflare.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
 
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/Blastorios/fastpages/master?filepath=_notebooks%2F2021-03-28-Installing-K3s%2C-Traefik-And-Cloudflare.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/Blastorios/fastpages/blob/master/_notebooks/2021-03-28-Installing-K3s,-Traefik-And-Cloudflare.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+</ul><!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-03-28-Installing-K3s,-Traefik-And-Cloudflare.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
 
 </div>
+    
+
+</div>
+
+
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="Blastorios/fastpages"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/devops/k3s/traefik/linux/2021/03/28/Installing-K3s,-Traefik-And-Cloudflare.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>

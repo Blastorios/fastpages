@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://blog.blastorios.io/jupyter/fastpages/markdown/2021/03/20/Utilizing-Notebooks-In-Fastpages.html</loc>
+<lastmod>2021-03-20T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://blog.blastorios.io/devops/k3s/traefik/linux/2021/03/28/Installing-K3s,-Traefik-And-Cloudflare.html</loc>
+<lastmod>2021-03-28T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>https://blog.blastorios.io/about/</loc>
 </url>
 <url>
