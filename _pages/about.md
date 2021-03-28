@@ -6,9 +6,9 @@ permalink: /about/
 
 ## Hi!
 
-![](https://blog.blastorios.io/images/Picture.jpg "Me!")
+![]({{ site.image_location }}about_me/Picture.jpg "Me!")
 
-My name is [Jordi](https://www.linkedin.com/in/jordi-zwiggelaar-6678b416b/), an MSc student at the VU/UvA (one of the funky joint-degrees :smile:).
+My name is [Jordi](https://www.linkedin.com/in/jordi-zwiggelaar-6678b416b/), an MSc student at the VU/UvA (one of those joint-degrees :smile:).
 
 I live in the Netherlands and love everything related to computer-related topics. Being solely limited to my creativity to create: programming allows me to try and push my boundaries.
 
