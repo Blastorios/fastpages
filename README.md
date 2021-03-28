@@ -8,4 +8,4 @@
 
 _powered by [fastpages](https://github.com/fastai/fastpages)_
 
-At <blog.blastorios.io>
+At [blog.blastorios.io](https"//blog.blastorios.io)
