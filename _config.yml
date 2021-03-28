@@ -16,6 +16,8 @@ github_repo: "fastpages"
 # Note: leave out the trailing / from this value. 
 url: "https://blog.blastorios.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+image_location: "https://blog.blastorios.io/images/"
+
 ###########################################################
 #########  Special Instructions for baseurl ###############
 #
@@ -64,6 +66,7 @@ exclude:
   - docker-compose.yml
   - action.yml
   - Makefile
+  - settings.ini
 
 # this setting allows you to keep pages organized in the _pages folder
 include:
@@ -120,6 +123,3 @@ kramdown:
 feed:
   posts_limit: 8 #default posts_limit: 10
   excerpt_only: true
-  
-exclude:
-  - settings.ini
