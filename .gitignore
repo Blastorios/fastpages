@@ -14,3 +14,9 @@ _notebooks/.ipynb_checkpoints
 __pycache__
 fastpagesenv
 **/*.ps1
+**/*.ipynb_checkpoints
+**/*.vscode
+**/*.env
+.*env*
+.*pass*
+**/*.*cred*
